@@ -15,3 +15,5 @@ Route::get('/check', function () {
 });
 
 Route::post('/login',[AuthController::class,'login']);
+
+Route::post('/login',[AuthController::class,'login']);
